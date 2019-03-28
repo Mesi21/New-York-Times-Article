@@ -98,7 +98,6 @@ p{
 #credit{
     font-size: small;
     color: #666;
-    background-color: red;
     width: auto;
     position: absolute;
     justify-content: center;
@@ -109,7 +108,26 @@ p{
     width: 75%;
     color: #666;
     position: relative;
+
+}
+.article-info {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
     background-color: blue;
+}
+.autor {
+    background-color: red;
+    width: 100%;
+}
+.information {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+.social-media {
+    float: right;
+
 }
 
 
