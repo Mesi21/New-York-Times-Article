@@ -181,4 +181,29 @@ p{
     padding-bottom: 13px;
     font-size: 14px;
 }
-
+.second-part{
+    display: flex;
+}
+.second{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+.article-2{
+    font-size: 1.1875rem ;
+    line-height: 1.8125rem;
+    font-family: 'times new roman',times,serif; 
+    margin-top: 18px;
+    width: 53%;
+    padding-left: 80px;
+}
+.second img{
+    width: 600;
+    height: 600px;
+}
+.second h3{
+    font-size: 1.1875rem ;
+    font-weight: bold;
+    justify-content: flex-start;
+}
