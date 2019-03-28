@@ -1,3 +1,11 @@
+body {
+    display: block;
+}
+@font-face {
+    font-family: 'oswald';
+    src: url('/Font/CHELTEN3.ttf') format('woff');
+}
+
 p{
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
@@ -37,6 +45,7 @@ p{
     justify-content: center;
     border-bottom: 1px solid #e2e2e2;
     line-height: 19px;
+    background-color: rgb(255, 255, 255);
 }
 #nyt {
     height: 40px;
@@ -69,3 +78,20 @@ p{
 .nav-bar ul a:hover{
     text-decoration: underline;
 }
+.main-content {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+.main-content h1{
+    font-family: 'Monotype Corsiva',georgia,'times new roman',times,serif;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px 0px 27px 0px;
+}
+.main-content img {
+    width: 400px;
+    height: 400px;
+}
+
