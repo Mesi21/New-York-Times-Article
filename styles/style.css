@@ -88,10 +88,28 @@ p{
     font-family: 'Monotype Corsiva',georgia,'times new roman',times,serif;
     font-size: 36px;
     font-style: italic;
-    padding: 50px 0px 27px 0px;
+    padding: 50px 210px 27px 0px;
 }
 .main-content img {
-    width: 400px;
-    height: 400px;
+    width: 75%;
+    height: 90%;
 }
+
+#credit{
+    font-size: small;
+    color: #666;
+    background-color: red;
+    width: auto;
+    position: absolute;
+    justify-content: center;
+}
+.label{
+    padding: 0px;
+    margin: 0px;
+    width: 75%;
+    color: #666;
+    position: relative;
+    background-color: blue;
+}
+
 
