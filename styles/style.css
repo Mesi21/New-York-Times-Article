@@ -151,6 +151,9 @@ p{
     display: flex;
     flex-direction: row;
 }
+.article-1 p{
+    padding: 10px 0px 10px 0px;
+}
 .sidebar-1{
     float: right;
     height: 100%;
@@ -183,20 +186,27 @@ p{
 }
 .second-part{
     display: flex;
+    width: 53%;
 }
 .second{
     display: flex;
     margin-top: 50px;
     align-items: center;
     flex-direction: column;
+    
 }
 .article-2{
     font-size: 1.1875rem ;
-    line-height: 1.8125rem;
+    line-height: 1.8rem;
     font-family: 'times new roman',times,serif; 
     margin-top: 18px;
-    width: 53%;
+    width: 70%;
     padding-left: 80px;
+    flex-direction: center;
+    margin-left: 233px;
+}
+.article-2 p{
+    padding: 10px 0px 10px 0px;
 }
 .second img{
     width: 600;
@@ -205,5 +215,40 @@ p{
 .second h3{
     font-size: 1.1875rem ;
     font-weight: bold;
-    justify-content: flex-start;
+    text-align: left;
+    width: 50%;
+    padding-left: 110px;
+}
+.sidebar-2 {
+    width: 170px;
+    float: right;
+    bottom: 970px;
+    position: relative;
+    margin-right: 37px;
+    line-height: 1rem;
+    font-size: 0.8425rem;
+}
+.sidebar-2 button {
+    background-color:  #6288a5;
+    color: white;
+    border: 1px solid #326891;
+    font-weight: bold;
+    padding: 9px;
+    height: 34px;
+    border-radius: 5px;
+    width: 100%;
+}
+.sidebar-2 button:hover {
+    background-color: #326891;
+    cursor: pointer;
+}
+.sidebar-2 h3 {
+    font-weight: bold;
+    line-height: 1.4rem;
+}
+.sidebar-2 p {
+    padding: 9px 0px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    font-style: normal;
 }
