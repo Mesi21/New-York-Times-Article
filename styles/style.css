@@ -150,15 +150,6 @@ strong {
     background-color: aqua;
     margin: 0px;
 }
-.article-1{
-    font-size: 1.1875rem ;
-    line-height: 1.8125rem;
-    font-family: 'times new roman',times,serif; 
-    margin-top: 18px;
-}
-.article-1 p{
-    padding: 10px 0px 10px 0px;
-}
 .sidebar-1{
     float: right;
     height: 100%;
@@ -206,14 +197,9 @@ strong {
     font-family: 'times new roman',times,serif; 
     margin-top: 18px;
     width: 100%;
-    flex-direction: center;
 }
 .article-2 p{
     padding: 10px 0px 10px 0px;
-}
-.second img{
-    width: 600;
-    height: 600px;
 }
 .second h3{
     font-size: 1.1875rem ;
@@ -225,9 +211,11 @@ strong {
 .third{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .third img{
     width: 100%;
+    height: 740px;
 }
 
 .par{
@@ -253,9 +241,9 @@ strong {
     font-size: 14px;
     padding: 20px 1px;
     margin: 0px 10px 80px 10px;
-    bottom: 520px;
+    bottom: 630px;
     line-height: 17px;
-    }
+}
 .article-3 p{
     width: 300px;
     padding-right: 10px;
