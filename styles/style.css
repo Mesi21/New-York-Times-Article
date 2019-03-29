@@ -117,7 +117,7 @@ strong {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    width: 53%;
+    width: 45%;
 }
 .autor {
     width: 100%;
@@ -252,10 +252,9 @@ strong {
     z-index: 1;
     font-size: 14px;
     padding: 20px 1px;
-    margin: 0px 10px 100px 10px;
-    bottom: 550px;
+    margin: 0px 10px 80px 10px;
+    bottom: 520px;
     line-height: 17px;
-    background-color: red;
     }
 .article-3 p{
     width: 300px;
