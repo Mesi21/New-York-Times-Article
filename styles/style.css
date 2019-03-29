@@ -141,15 +141,15 @@ p{
 .social-media i{
     padding-left: 20px;
 }
+.intro{
+    display: flex;
+    flex-direction: column;
+}
 .article-1{
     font-size: 1.1875rem ;
     line-height: 1.8125rem;
     font-family: 'times new roman',times,serif; 
     margin-top: 18px;
-}
-.intro{
-    display: flex;
-    flex-direction: row;
 }
 .article-1 p{
     padding: 10px 0px 10px 0px;
@@ -157,9 +157,10 @@ p{
 .sidebar-1{
     float: right;
     height: 100%;
-    width: 200px;
+    width: 250px;
     position: relative;
-    bottom: 500px; 
+    margin-right:40px;
+    bottom: 2900px; 
     z-index: 0;       
 }
 .sidebar-1 img{
@@ -191,19 +192,16 @@ p{
 .second{
     display: flex;
     margin-top: 50px;
-    align-items: center;
-    flex-direction: column;
-    
+    align-items: flex-start;
+    flex-direction: column;    
 }
 .article-2{
     font-size: 1.1875rem ;
     line-height: 1.8rem;
     font-family: 'times new roman',times,serif; 
     margin-top: 18px;
-    width: 70%;
-    padding-left: 80px;
+    width: 100%;
     flex-direction: center;
-    margin-left: 233px;
 }
 .article-2 p{
     padding: 10px 0px 10px 0px;
@@ -217,16 +215,41 @@ p{
     font-weight: bold;
     text-align: left;
     width: 50%;
-    padding-left: 110px;
 }
+
+.third{
+    display: flex;
+    flex-direction: column;
+}
+
+.par{
+    display: flex;
+    flex-direction: column;
+}
+.par h3{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.par p{
+    padding: 5px 0px;
+    color: #666;
+    line-height: 1.125rem;
+    font-size: .875rem;
+}
+.article-3{
+    display: flex;
+    flex-direction: row;
+}
+
 .sidebar-2 {
     width: 170px;
     float: right;
-    bottom: 970px;
+    bottom: 1390px;
     position: relative;
-    margin-right: 37px;
     line-height: 1rem;
     font-size: 0.8425rem;
+    left: 170px;
 }
 .sidebar-2 button {
     background-color:  #6288a5;
