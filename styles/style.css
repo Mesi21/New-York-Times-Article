@@ -9,6 +9,9 @@ body {
 p{
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
+strong { 
+  font-weight: bold;
+}
 .nav-bar button{
     background-color: #6288a5;
     border: 1px solid #326891;
@@ -144,6 +147,8 @@ p{
 .intro{
     display: flex;
     flex-direction: column;
+    background-color: aqua;
+    margin: 0px;
 }
 .article-1{
     font-size: 1.1875rem ;
@@ -221,6 +226,9 @@ p{
     display: flex;
     flex-direction: column;
 }
+.third img{
+    width: 100%;
+}
 
 .par{
     display: flex;
@@ -243,12 +251,16 @@ p{
     position: relative;
     z-index: 1;
     font-size: 14px;
-    padding: 20px 10px;
-    margin-bottom: 45px;
-    bottom: 390px;
+    padding: 20px 1px;
+    margin: 0px 10px 100px 10px;
+    bottom: 550px;
     line-height: 17px;
+    background-color: red;
+    }
+.article-3 p{
+    width: 300px;
+    padding-right: 10px;
 }
-
 .sidebar-2 {
     width: 170px;
     float: right;
