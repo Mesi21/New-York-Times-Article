@@ -82,6 +82,7 @@ strong {
 .nav-bar ul a:hover{
     text-decoration: underline;
 }
+
 .main-content {
     display: flex;
     margin-top: 50px;
@@ -98,26 +99,20 @@ strong {
     width: 75%;
     height: 90%;
 }
-#credit{
-    font-size: small;
-    color: #666;
-    width: auto;
-    position: absolute;
-    justify-content: center;
-}
 .label{
     padding: 10px;
     margin: 0px;
     width: 75%;
     color: #666;
-    position: relative;
-
+    position: static;
 }
 .article-info {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     width: 45%;
+    border: 5px solid black;
+    justify-content: center;
 }
 .autor {
     width: 100%;
@@ -147,43 +142,19 @@ strong {
 .intro{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     margin: 0px;
+    width: 45%;
+    border: 5px solid red;
 }
-.sidebar-1{
-    float: right;
-    height: 100%;
-    width: 250px;
-    position: relative;
-    margin-right:40px;
-    bottom: 2900px; 
-    z-index: 0;       
+.article{
+    font-size: 1.1875rem ;
+    line-height: 1.8rem;
+    font-family: 'times new roman',times,serif; 
+    margin-top: 18px;
+    width: 100%;
 }
-.sidebar-1 img{
-    height: 100px;
-    width: 100px;
-
-}
-.sidebar-1 ul li{
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    font-family: 'times new roman',times,serif;
-}
-.sidebar-1 ul li p {
-    padding-top: 6px;
-    padding-left: 7px;
-}
-.sidebar-1 h3 {
-    margin-bottom: 25px;
-    border-bottom: solid 1px rgb(226, 226, 226);
-    font-weight: bold;
-    padding-bottom: 13px;
-    font-size: 14px;
-}
-.second-part{
-    display: flex;
-    width: 53%;
+.article p{
+    padding: 10px 0px 10px 0px;
 }
 .second{
     display: flex;
@@ -191,33 +162,17 @@ strong {
     align-items: flex-start;
     flex-direction: column;    
 }
-.article-2{
-    font-size: 1.1875rem ;
-    line-height: 1.8rem;
-    font-family: 'times new roman',times,serif; 
-    margin-top: 18px;
-    width: 100%;
-}
-.article-2 p{
-    padding: 10px 0px 10px 0px;
-}
 .second h3{
     font-size: 1.1875rem ;
     font-weight: bold;
     text-align: left;
     width: 50%;
 }
-
 .third{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.third img{
-    width: 100%;
-    height: 740px;
-}
-
 .par{
     display: flex;
     flex-direction: column;
@@ -233,55 +188,29 @@ strong {
     line-height: 1.125rem;
     font-size: .875rem;
 }
+.third img{
+    width: 100%;
+    height: 760px;
+}
 .article-3{
     display: flex;
     flex-direction: row;
     position: relative;
     z-index: 1;
     font-size: 14px;
-    padding: 20px 1px;
-    margin: 0px 10px 80px 10px;
-    bottom: 630px;
+    padding: 20px 3px 0px 5px;
+    margin: 0px 10px -700px 10px;
+    bottom: 658px;
     line-height: 17px;
 }
-.article-3 p{
-    width: 300px;
-    padding-right: 10px;
-}
-.sidebar-2 {
-    width: 170px;
-    float: right;
-    bottom: 1390px;
+.article-4{
+    display: flex;
+    flex-direction: row;
     position: relative;
-    line-height: 1rem;
-    font-size: 0.8425rem;
-    left: 170px;
-}
-.sidebar-2 button {
-    background-color:  #6288a5;
-    color: white;
-    border: 1px solid #326891;
-    font-weight: bold;
-    padding: 9px;
-    height: 34px;
-    border-radius: 5px;
-    width: 100%;
-}
-.sidebar-2 button:hover {
-    background-color: #326891;
-    cursor: pointer;
-}
-.sidebar-2 h3 {
-    font-weight: bold;
-    line-height: 1.4rem;
-}
-.sidebar-2 p {
-    padding: 9px 0px;
-    font-size: 12px;
-    color: rgb(102, 102, 102);
-    font-style: normal;
-}
-.second-cols img {
-    position: relative;
-    z-index: 0;
+    z-index: 1;
+    font-size: 14px;
+    padding: 20px 5px;
+    margin: 0px 10px -280px 10px;
+    bottom: 250px;
+    line-height: 17px;
 }
