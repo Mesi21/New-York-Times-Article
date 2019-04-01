@@ -293,3 +293,12 @@ strong {
     font-size: 12px;
     color: rgb(136, 136 ,136);
 }
+.article h3{
+    color: #333;
+    font-size: 1.1875rem ;
+    font-weight: 700;
+    text-align: left;
+}
+.intro img{
+    width: 100%;
+}
