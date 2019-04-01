@@ -166,6 +166,9 @@ strong {
     text-align: left;
     width: 50%;
 }
+iframe{
+    border: 0px;
+}
 .third{
     display: flex;
     flex-direction: column;
@@ -293,7 +296,7 @@ strong {
     color: #000;
     padding: 7px 0px;
 }
-#video-autor {
+.credit-autor {
     font-size: 12px;
     color: rgb(136, 136 ,136);
 }
