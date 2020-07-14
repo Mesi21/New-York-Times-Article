@@ -1,6 +1,6 @@
 # Project New York Times Article
 
-This is the third project. It is a replica of one of the New York Times articles as part of a course.
+This is our third project. It is a replica of one of the New York Times articles as part of a course.
 
 ## Contribution
 
